@@ -1,0 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:100,300,400,500,700,800,900');
+@import url('https://cdn.codejunkers.in/ignitor/css/ignitor.css');
+* {
+	font-family: 'M PLUS Rounded 1c', sans-serif!important;
+}
