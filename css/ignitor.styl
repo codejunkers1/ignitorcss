@@ -69,3 +69,38 @@ table
 td, th
     text-align left
     vertical-align top
+
+/**
+  Default Spacing for Layout
+**/
+space(head, prop, row, type)
+    .{head}-
+        if row == 0
+            if prop
+                &{prop}-{(1 * row)}
+                    {type}-{prop} (1px * row)
+            else
+                &{(1 * row)}
+                    {type} (1px * row)
+        else
+            if prop
+                &{prop}-{(10 * row) - 5}
+                    {type}-{prop} (10px * row) - 5
+                &{prop}-{10 * row}
+                    {type}-{prop} (10px * row)
+            else
+               &{(10 * row) - 5}
+                    {type} (10px * row) - 5
+                &{10 * row}
+                    {type} (10px * row)
+
+spacings(prop, row, type)
+    space(prop, '', row, type)
+    space(prop, 'top', row, type)
+    space(prop, 'right', row, type)
+    space(prop, 'bottom', row, type)
+    space(prop, 'left', row, type)
+
+for row in (0..4)
+    spacings('pad', row, 'padding')
+    spacings('margin', row, 'margin')
