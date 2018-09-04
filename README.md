@@ -1,2 +1,2 @@
-# ignator
+# Ignitor
 css framework for UI
