@@ -1,0 +1,25 @@
+{
+  "name": "ignitor",
+  "version": "1.0.0",
+  "description": "Css support framework for UI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codejunkers1/ignitor.git"
+  },
+  "keywords": [
+    "css",
+    "ui",
+    "padding",
+    "margin"
+  ],
+  "author": "Venkata Sai Katepalli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codejunkers1/ignitor/issues"
+  },
+  "homepage": "https://github.com/codejunkers1/ignitor#readme"
+}
